@@ -22,7 +22,7 @@ function App() {
 
       if (!consultar) return;
       
-      const appId = '48dd76aebee7fbcf8202810e658cb16b';
+      const appId = 'API KEY';
       const baseURL = 'https://api.openweathermap.org/data/2.5/weather';
       const url = `${baseURL}?q=${ciudad},${pais}&appid=${appId}`;
 
